@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is project is to make ieee conference website",
+  "homepage": "https://github.com/omchandurkar07/IEEE-Website#readme",
+  "bugs": {
+    "url": "https://github.com/omchandurkar07/IEEE-Website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omchandurkar07/IEEE-Website.git"
+  },
+  "license": "ISC",
+  "author": "Om Chandurkar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
